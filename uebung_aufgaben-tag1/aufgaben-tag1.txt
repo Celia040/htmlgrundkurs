@@ -1,0 +1,73 @@
+Für die Abarbeitung der Aufgaben legen Sie sich bitte zu jeder Aufgabe eine HTML-Datei an.
+Verwenden Sie die Ihnen bisher bekannten Tags zur Auszeichnung.
+
+Aufgabe 1:
+---------------------------
+Erklären Sie mit eigenen Worten (also nicht irgendwo abschreiben :-) was man bei der Wahl eines Dateinamens beachten sollte!
+
+Beurteilen Sie die folgenden Dateinamen:
+räuber .html
+über-raschung_mit html .html 
+kontakt.html
+
+Welche Zeichencodierung wird bei HMTL5 im Allgemeinen verwendet?
+
+
+Aufgabe 2 - Recherche: 
+--------------------------- 
+Was ist der Unterschied zwischen Block- und Inlineelementen?
+Erklären Sie die Unterschiede und benennen Sie zu jeder Darstellungseigenschaft passende Elemente.
+
+
+Aufgabe 3 - Recherche:
+---------------------------
+Was ist der Unterschied zwischen den Elementen strong und bold? 
+Was ist der Unterschied zwischen den Elementen em und i?
+
+Aufgabe 3
+Was ist der Unterschied zwischen den Elementen strong und bold?
+Der Unterschied ist, dass es sich bei strong um eine logisch semantische Hervorhebung handelt. Der Text ist also auch wichtig und soll nicht nur fett dargestellt werden. Mit dem HTML-TAG <b> wird der Text zwar fett dargestellt, aber es handelt sich um eine physische Hervorhebung. Beide Elemente werden somit auch von Screenreadern gesondert betont.
+
+strong - semantisch bedeutsam - stark hervorgehoben bzw. stark betont /sehr wichtig
+bold - bedeutungslos - physisch betont - sehr wichtig
+Was ist der Unterschied zwischen den Elementen em und i?
+Das Gleiche gibt es auch, wenn Text betont werden soll. In der Praxis wird der Text dann kursiv darstellt. Betont ist von der Gewichtung weniger als hervorgehoben. em steht für emphasis und ist eine logisch semantische Hervorhebung wogegen das i für italic steht und eine reine physische Betonung ist.
+
+em - semantisch bedeutsam - hervorgehoben / wichtig
+italic - bedeutungslos - physisch betont - wichtig
+Screenreader betonen die Elemente <b>,<i> in der Regel gesondert. Meist durch eine langsamere oder schnellere Sprachgeschwindigkeit , ggf. Stimmänderung oder durch eine Lautstärkeanhebung. Man spricht hierbei von einer inhaltlichen Betonung.
+
+Aufgabe 4:
+---------------------------
+Finden und beheben Sie alle Fehler!
+Erstellen Sie dazu ein leeres HTML-Dakoment und fügen nachfolgendes Markup ein.
+
+<DOCTYPE hmtl>
+<html lang "de">    
+	<head>
+		<meta charset="uft-8">
+		<title>Fehlersuche Textstrukturierung</titel> 
+	</head>
+	<body>
+		< h1>Web-Technologien</h1>
+  </body>
+  <body>
+	<p><h2>HTML</h2></p>
+	<p>bedeutet HyperText Markup Language. Als Auszeichnungssprache (Markup Language) hat HTML die Aufgabe, die logische Grob- und Feinstruktur einer Webseite zu beschreiben. HTML geht aus der Familie der SGML-basierten Sprachen hervor.
+
+<html>
+
+<!DOCTYPE html>
+<html lang="de">    
+	<head>
+		<meta charset="utf-8">
+		<title>Fehlersuche Textstrukturierung</title> 
+	</head>
+	<body>
+	  <h1>Web-Technologien</h1>
+	  <h2>HTML</h2>
+	  <p>bedeutet HyperText Markup Language. Als Auszeichnungssprache (Markup Language) hat HTML die Aufgabe, die logische Grob- und Feinstruktur einer Webseite zu beschreiben. HTML geht aus der Familie der SGML-basierten Sprachen hervor.</p>
+  
+  </body>
+</html>
+  	
